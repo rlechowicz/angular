@@ -22,6 +22,7 @@ import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { TextFormatDirective } from './directives/text-format.directive';
 import { Observable } from 'rxjs';
 import { BlogCreateComponent } from './components/blog-create/blog-create.component';
+import { LoginComponent } from './components/login/login.component';
 
 const appRoutes: Routes = [
   {
@@ -67,7 +68,8 @@ const appRoutes: Routes = [
     SearchBarComponent,
     BlogHomeComponent,
     TextFormatDirective,
-    BlogCreateComponent
+    BlogCreateComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
